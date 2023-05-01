@@ -2,9 +2,12 @@ import random
 
 
 class aaa_slot_class():
-    def aaa_slot(self):
+    def aaa_slot(self, count):
         result = random.random()
-        rate = 0.7;
+        rate = 0.3;
+
+
+
         if (result < rate):
             return 1
         else:
